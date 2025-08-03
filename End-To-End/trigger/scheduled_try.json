@@ -1,0 +1,28 @@
+{
+	"name": "scheduled_try",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "scheduled triger pipeline",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"filesource": "rawfiles",
+					"filedest": "copied"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 2,
+				"startTime": "2025-08-04T21:11:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
