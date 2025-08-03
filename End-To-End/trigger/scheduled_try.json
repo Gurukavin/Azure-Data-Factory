@@ -3,23 +3,12 @@
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Started",
-		"pipelines": [
-			{
-				"pipelineReference": {
-					"referenceName": "scheduled triger pipeline",
-					"type": "PipelineReference"
-				},
-				"parameters": {
-					"filesource": "rawfiles",
-					"filedest": "copied"
-				}
-			}
-		],
+		"pipelines": [],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
 				"frequency": "Minute",
-				"interval": 2,
+				"interval": 4,
 				"startTime": "2025-08-03T21:11:00",
 				"timeZone": "India Standard Time"
 			}
