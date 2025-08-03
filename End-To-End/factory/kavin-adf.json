@@ -1,0 +1,9 @@
+{
+	"name": "kavin-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bf8c32d9-0db0-4067-a867-1270baf2e115",
+		"tenantId": "1ec3ea0d-a234-44d6-8d6b-00d926e68a34"
+	}
+}
