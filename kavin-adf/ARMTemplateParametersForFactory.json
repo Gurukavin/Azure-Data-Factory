@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "kavin-adf"
+		},
+		"Blobsource_connectionString": {
+			"value": ""
+		},
+		"Incremental_raw_blob_connectionString": {
+			"value": ""
+		},
+		"sink_sql_server_password": {
+			"value": ""
+		},
+		"httpgit_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"sink_sql_server_properties_typeProperties_server": {
+			"value": "kavinsql.database.windows.net"
+		},
+		"sink_sql_server_properties_typeProperties_database": {
+			"value": "kavin_db"
+		},
+		"sink_sql_server_properties_typeProperties_userName": {
+			"value": "Adminkavin"
+		},
+		"scheduled_try_properties_scheduled triger pipeline_parameters_filesource": {
+			"value": "rawfiles"
+		},
+		"scheduled_try_properties_scheduled triger pipeline_parameters_filedest": {
+			"value": "copied"
+		}
+	}
+}
