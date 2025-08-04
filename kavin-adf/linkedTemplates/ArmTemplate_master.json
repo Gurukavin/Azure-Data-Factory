@@ -35,14 +35,6 @@
 			"type": "string",
 			"defaultValue": "Adminkavin"
 		},
-		"scheduled_try_properties_scheduled triger pipeline_parameters_filesource": {
-			"type": "string",
-			"defaultValue": "rawfiles"
-		},
-		"scheduled_try_properties_scheduled triger pipeline_parameters_filedest": {
-			"type": "string",
-			"defaultValue": "copied"
-		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -90,12 +82,6 @@
 					},
 					"sink_sql_server_properties_typeProperties_userName": {
 						"value": "[parameters('sink_sql_server_properties_typeProperties_userName')]"
-					},
-					"scheduled_try_properties_scheduled triger pipeline_parameters_filesource": {
-						"value": "[parameters('scheduled_try_properties_scheduled triger pipeline_parameters_filesource')]"
-					},
-					"scheduled_try_properties_scheduled triger pipeline_parameters_filedest": {
-						"value": "[parameters('scheduled_try_properties_scheduled triger pipeline_parameters_filedest')]"
 					}
 				}
 			},

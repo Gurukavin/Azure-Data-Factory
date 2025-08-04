@@ -26,12 +26,6 @@
 		"sink_sql_server_properties_typeProperties_userName": {
 			"value": "Adminkavin"
 		},
-		"scheduled_try_properties_scheduled triger pipeline_parameters_filesource": {
-			"value": "rawfiles"
-		},
-		"scheduled_try_properties_scheduled triger pipeline_parameters_filedest": {
-			"value": "copied"
-		},
 		"containerUri": {
 			"value": ""
 		},
