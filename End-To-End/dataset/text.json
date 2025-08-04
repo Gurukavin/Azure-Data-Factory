@@ -1,0 +1,35 @@
+{
+	"name": "text",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Blobsource",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"filepath": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": {
+					"value": "@dataset().filepath",
+					"type": "Expression"
+				},
+				"container": "source"
+			},
+			"columnDelimiter": {
+				"value": "^",
+				"type": "Expression"
+			},
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
